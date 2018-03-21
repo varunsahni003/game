@@ -5,7 +5,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
-import { SexBoardPage } from '../pages/sex-board/sex-board';
+import { GameBoardPage } from '../pages/game-board/game-board';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,7 +15,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    SexBoardPage
+    GameBoardPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +26,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    SexBoardPage
+    GameBoardPage
   ],
   providers: [
     StatusBar,
